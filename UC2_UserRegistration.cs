@@ -9,7 +9,9 @@ namespace UserRegistrationProblem
         string Regex_Pincode = "^*[A-Z]{1}[a-z]+$";
         public bool validatePinCode(string pincode)
         {
+
             return Regex.IsMatch(pincode, Regex_Pincode);
+
         }
     }
 }
