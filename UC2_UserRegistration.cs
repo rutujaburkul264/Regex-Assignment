@@ -7,10 +7,10 @@ namespace UserRegistrationProblem
     class UC2_UserRegistration
     {
         string Regex_Pincode = "^*[A-Z]{1}[a-z]+$";
-        public bool validatePinCode(string pincode)
+        public bool validatePinCode(string lastName)
         {
 
-            return Regex.IsMatch(pincode, Regex_Pincode);
+            return Regex.IsMatch(lastName, Regex_Pincode);
 
         }
     }
