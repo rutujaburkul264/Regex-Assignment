@@ -7,9 +7,9 @@ namespace UserRegistrationProblem
     class UC1_UserRegistration
     {
         string Regex_Pincode = "^[A-Z]{1}[a-z]+$";
-        public bool validatePinCode(string pincode)
+        public bool validatePinCode(string firstName)
         {
-            return Regex.IsMatch(pincode, Regex_Pincode);
+            return Regex.IsMatch(firstName, Regex_Pincode);
         }
     }
 }
