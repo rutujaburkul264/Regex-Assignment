@@ -2,7 +2,6 @@ using System;
 using System.Text;
 using System.Text.RegularExpressions;
 
-
 namespace UserRegistrationProblem
 {
     class UC1_UserRegistration
