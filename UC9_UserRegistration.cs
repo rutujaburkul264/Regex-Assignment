@@ -12,4 +12,5 @@ namespace UserRegistrationProblem
             return Regex.IsMatch(email, Regex_Pincode);
         }
     }
+
 }
